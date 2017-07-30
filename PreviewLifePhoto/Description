@@ -1,0 +1,6 @@
+Preview Live Photo:
+- introduce to collection view
+- access to camera roll (if no permission - remind user about it)
+- select necessary photo by type (in this case - Live Photo)
+- sort them by date
+- tap on cell - see preview
