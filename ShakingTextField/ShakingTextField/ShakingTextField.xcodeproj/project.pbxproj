@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4AF981C1F1F54AB00CB5843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF981B1F1F54AB00CB5843 /* AppDelegate.swift */; };
+		A4AF981E1F1F54AB00CB5843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF981D1F1F54AB00CB5843 /* ViewController.swift */; };
+		A4AF98211F1F54AB00CB5843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AF981F1F1F54AB00CB5843 /* Main.storyboard */; };
+		A4AF98231F1F54AB00CB5843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4AF98221F1F54AB00CB5843 /* Assets.xcassets */; };
+		A4AF98261F1F54AB00CB5843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AF98241F1F54AB00CB5843 /* LaunchScreen.storyboard */; };
+		A4AF982F1F1F553500CB5843 /* EntryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF982E1F1F553500CB5843 /* EntryTextField.swift */; };
+		A4AF98311F1F58F500CB5843 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF98301F1F58F500CB5843 /* Shakeable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4AF98181F1F54AB00CB5843 /* ShakingTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakingTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF981B1F1F54AB00CB5843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4AF981D1F1F54AB00CB5843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4AF98201F1F54AB00CB5843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4AF98221F1F54AB00CB5843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4AF98251F1F54AB00CB5843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4AF98271F1F54AB00CB5843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AF982E1F1F553500CB5843 /* EntryTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTextField.swift; sourceTree = "<group>"; };
+		A4AF98301F1F58F500CB5843 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AF98151F1F54AB00CB5843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4AF980F1F1F54AB00CB5843 = {
+			isa = PBXGroup;
+			children = (
+				A4AF981A1F1F54AB00CB5843 /* ShakingTextField */,
+				A4AF98191F1F54AB00CB5843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AF98191F1F54AB00CB5843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF98181F1F54AB00CB5843 /* ShakingTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AF981A1F1F54AB00CB5843 /* ShakingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF982D1F1F550800CB5843 /* Supporting Files */,
+				A4AF981D1F1F54AB00CB5843 /* ViewController.swift */,
+				A4AF982E1F1F553500CB5843 /* EntryTextField.swift */,
+				A4AF98301F1F58F500CB5843 /* Shakeable.swift */,
+				A4AF981F1F1F54AB00CB5843 /* Main.storyboard */,
+			);
+			path = ShakingTextField;
+			sourceTree = "<group>";
+		};
+		A4AF982D1F1F550800CB5843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF981B1F1F54AB00CB5843 /* AppDelegate.swift */,
+				A4AF98221F1F54AB00CB5843 /* Assets.xcassets */,
+				A4AF98241F1F54AB00CB5843 /* LaunchScreen.storyboard */,
+				A4AF98271F1F54AB00CB5843 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AF98171F1F54AB00CB5843 /* ShakingTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AF982A1F1F54AB00CB5843 /* Build configuration list for PBXNativeTarget "ShakingTextField" */;
+			buildPhases = (
+				A4AF98141F1F54AB00CB5843 /* Sources */,
+				A4AF98151F1F54AB00CB5843 /* Frameworks */,
+				A4AF98161F1F54AB00CB5843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakingTextField;
+			productName = ShakingTextField;
+			productReference = A4AF98181F1F54AB00CB5843 /* ShakingTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AF98101F1F54AB00CB5843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pavel Selivanov";
+				TargetAttributes = {
+					A4AF98171F1F54AB00CB5843 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YT28MT87R5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4AF98131F1F54AB00CB5843 /* Build configuration list for PBXProject "ShakingTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4AF980F1F1F54AB00CB5843;
+			productRefGroup = A4AF98191F1F54AB00CB5843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AF98171F1F54AB00CB5843 /* ShakingTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AF98161F1F54AB00CB5843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AF98261F1F54AB00CB5843 /* LaunchScreen.storyboard in Resources */,
+				A4AF98231F1F54AB00CB5843 /* Assets.xcassets in Resources */,
+				A4AF98211F1F54AB00CB5843 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AF98141F1F54AB00CB5843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AF981E1F1F54AB00CB5843 /* ViewController.swift in Sources */,
+				A4AF982F1F1F553500CB5843 /* EntryTextField.swift in Sources */,
+				A4AF98311F1F58F500CB5843 /* Shakeable.swift in Sources */,
+				A4AF981C1F1F54AB00CB5843 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4AF981F1F1F54AB00CB5843 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AF98201F1F54AB00CB5843 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4AF98241F1F54AB00CB5843 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AF98251F1F54AB00CB5843 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4AF98281F1F54AB00CB5843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4AF98291F1F54AB00CB5843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4AF982B1F1F54AB00CB5843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YT28MT87R5;
+				INFOPLIST_FILE = ShakingTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pavel-Selivanov.ShakingTextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4AF982C1F1F54AB00CB5843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YT28MT87R5;
+				INFOPLIST_FILE = ShakingTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pavel-Selivanov.ShakingTextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AF98131F1F54AB00CB5843 /* Build configuration list for PBXProject "ShakingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF98281F1F54AB00CB5843 /* Debug */,
+				A4AF98291F1F54AB00CB5843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AF982A1F1F54AB00CB5843 /* Build configuration list for PBXNativeTarget "ShakingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF982B1F1F54AB00CB5843 /* Debug */,
+				A4AF982C1F1F54AB00CB5843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AF98101F1F54AB00CB5843 /* Project object */;
+}
