@@ -1,0 +1,14 @@
+Last Movies from themoviedb.org
+- training with "completion"
+- download data (JSON file from site using API key)
+- cashing images
+- DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async { 
+    do heavy tasks 
+    DispatchQueue.main.async {
+      update UI 
+    }
+- presentation view controller (in MovieCollectionViewController uncomment "didSelectItemAt" method)
+- pick and pop
+- today extension
+- bridge (extra scheme) between main classes and today extansion
+
